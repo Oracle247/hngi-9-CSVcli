@@ -4,8 +4,8 @@ This command line tool allows you to generate a hash for each entry in a CSV and
 
 ## Requirements
 
-- Node.js 8.0.0 or higher
 - npm 5.0.0 or higher
+- Node.js 8.0.0 or higher
 
 ## Installation
 
@@ -16,7 +16,7 @@ This command line tool allows you to generate a hash for each entry in a CSV and
 
 ## Usage
 
-`hash-csv generate <file> `
+`hash-csv generate <file>`
 
 ## Example
 
@@ -24,18 +24,16 @@ This command line tool allows you to generate a hash for each entry in a CSV and
 
 ```csv
 id,name
-1,John
-2,Paul
-3,George
-4,Ringo
+1,kate
+2,mimi
+3,kelvin
 ```
 
 ### Output
 
 ```csv
 id,name,hash
-1,John,0x1
-2,Paul,0x2
-3,George,0x3
-4,Ringo,0x4
+1,kate,0x1
+2,mimi,0x2
+3,kelvin,0x3
 ```
